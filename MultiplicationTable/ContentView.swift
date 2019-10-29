@@ -17,10 +17,15 @@ struct ContentView: View {
     
     
     var body: some View {
-        QuestionView(questions: $questions, showingSettings: $showingSettings)
-            .sheet(isPresented: $showingSettings) {
+        Group {
+            if showingSettings {
                 SettingsView(showingSettings: self.$showingSettings, questions: self.$questions)
-        }
+                    .transition(.opacity)
+            } else {
+                QuestionView(questions: $questions, showingSettings: $showingSettings)
+                    .transition(.opacity)
+            }
+        }        
     }
 }
 
