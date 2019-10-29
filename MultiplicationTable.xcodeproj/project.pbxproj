@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B9144D023685D380041E786 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9144CF23685D380041E786 /* Questions.swift */; };
 		2BF77C4D2367F31200B2B499 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF77C4C2367F31200B2B499 /* AppDelegate.swift */; };
 		2BF77C4F2367F31200B2B499 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF77C4E2367F31200B2B499 /* SceneDelegate.swift */; };
 		2BF77C512367F31200B2B499 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF77C502367F31200B2B499 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B9144CF23685D380041E786 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
 		2BF77C492367F31200B2B499 /* MultiplicationTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiplicationTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BF77C4C2367F31200B2B499 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BF77C4E2367F31200B2B499 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				2BF77C4C2367F31200B2B499 /* AppDelegate.swift */,
 				2BF77C4E2367F31200B2B499 /* SceneDelegate.swift */,
 				2BF77C502367F31200B2B499 /* ContentView.swift */,
+				2B9144CF23685D380041E786 /* Questions.swift */,
 				2BF77C522367F31500B2B499 /* Assets.xcassets */,
 				2BF77C572367F31500B2B499 /* LaunchScreen.storyboard */,
 				2BF77C5A2367F31500B2B499 /* Info.plist */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BF77C4D2367F31200B2B499 /* AppDelegate.swift in Sources */,
+				2B9144D023685D380041E786 /* Questions.swift in Sources */,
 				2BF77C4F2367F31200B2B499 /* SceneDelegate.swift in Sources */,
 				2BF77C512367F31200B2B499 /* ContentView.swift in Sources */,
 			);
